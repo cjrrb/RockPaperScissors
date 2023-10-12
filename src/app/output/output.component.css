@@ -26,6 +26,7 @@
   text-align: center;
   font-size: 40px;
   font-weight: bolder;
+  margin-top: -30px;
 }
 
 img {
@@ -40,15 +41,20 @@ img {
 }
 
 button {
-  color: black;
+  color: #222831;
   background-color: #F1EFEF;
-  border: 2px solid black;
+  border: 2px solid #222831;
   border-radius: 10px;
   padding: 15px 30px;
   transition-duration: 0.3s;
 }
 
 button:hover {
-  background-color: black;
+  background-color: #222831;
   color: #F1EFEF;
+}
+
+#user-choice,
+#computerChoice {
+  margin: 20px;
 }

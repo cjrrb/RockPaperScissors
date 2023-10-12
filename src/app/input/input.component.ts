@@ -19,7 +19,7 @@ export class InputComponent {
       this.gameService.computerChoice = this.gameService.generateComputerChoice();
       this.router.navigate(['/output']);
     } else {
-      alert('Please select a move before playing.');
+      alert('You forgot to select a move!');
     }
   }
 }
