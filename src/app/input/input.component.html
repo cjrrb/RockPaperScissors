@@ -1,0 +1,18 @@
+<p id="choose-move-text">Choose Your Move:</p>
+<div id="main-container">
+  <div id="moves">
+    <div id="rock">
+      <img src="./assets/images/rps/rock.png" id="rock-img" alt="Rock">
+      <input type="radio" name="choice" value="rock" (change)="updateUserChoice('rock')">Rock
+    </div>
+    <div id="paper">
+      <img src="./assets/images/rps/paper.png" id="paper-img" alt="Paper">
+      <input type="radio" name="choice" value="paper" (change)="updateUserChoice('paper')">Paper
+    </div>
+    <div id="scissors">
+      <img src="./assets/images/rps/scissors.png" id="scissors-img" alt="Scissors">
+      <input type="radio" name="choice" value="scissors" (change)="updateUserChoice('scissors')">Scissors
+    </div>
+  </div>
+</div>
+<button id="play-btn" (click)="playGame()">PLAY!</button>

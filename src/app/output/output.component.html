@@ -1,0 +1,18 @@
+<p id="game-result-text">Game Result</p>
+<div id="choices">
+  <div id="user-choice">
+    <img [src]="'./assets/images/rps/' + gameService.userChoice + '.png'" alt="User's Choice">
+    <p>User's Choice: {{ capitalizeFirstLetter(gameService.userChoice) }}</p>
+  </div>
+  <p id="vs-text">VS.</p>
+  <div id="computerChoice">
+    <img [src]="'./assets/images/rps/' + gameService.computerChoice + '.png'" alt="Computer's Choice">
+    <p>Computer's Choice: {{ capitalizeFirstLetter(gameService.computerChoice) }}</p>
+  </div>
+</div>
+
+<div id="result-text">
+  <p>Result: {{ gameService.getResult() }}</p>
+</div>
+
+<button id="play-again-btn" (click)="playAgain()">Play Again!</button>

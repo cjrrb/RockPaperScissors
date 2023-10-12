@@ -1,0 +1,54 @@
+#game-result-text {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+#vs-text {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+#choices {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+#choices > div {
+  text-align: center;
+}
+
+#result-text {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+}
+
+#play-again-btn {
+  display: block;
+  margin: 0 auto;
+}
+
+button {
+  color: black;
+  background-color: #F1EFEF;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 15px 30px;
+  transition-duration: 0.3s;
+}
+
+button:hover {
+  background-color: black;
+  color: #F1EFEF;
+}
